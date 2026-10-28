@@ -89,7 +89,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ profile }) => {
                 <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center shrink-0">
                   <GraduationCap className="w-6 h-6" />
                 </div>
-                <div>
+                <div className="w-full">
                   <span className="text-xs font-bold text-blue-700 uppercase tracking-wider">Education</span>
                   <h4 className="text-base font-bold text-slate-900 mt-0.5">
                     B.Tech in Computer Science & Engineering
@@ -98,10 +98,18 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ profile }) => {
                     Specialization in <strong>Data Engineering for AI</strong>
                   </p>
                   <p className="text-xs text-slate-500 mt-0.5 font-medium">
-                    KL University • Expected Graduation: 2027
+                    KL University • 2023 – 2027
                   </p>
-                  <div className="mt-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-bold">
-                    <span>CGPA: 8.59 / 10.0</span>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-bold">
+                      B.Tech CGPA: 8.7 / 10.0
+                    </span>
+                    <span className="inline-flex items-center px-2 py-1 rounded-lg bg-slate-50 text-slate-700 border border-slate-200 text-[11px] font-semibold">
+                      Inter (NRI): 61.2%
+                    </span>
+                    <span className="inline-flex items-center px-2 py-1 rounded-lg bg-slate-50 text-slate-700 border border-slate-200 text-[11px] font-semibold">
+                      SSC (Bhashyam): 97%
+                    </span>
                   </div>
                 </div>
               </div>

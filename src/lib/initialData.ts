@@ -3,13 +3,13 @@ import { Certificate, Profile } from '../types';
 export const INITIAL_PROFILE: Profile = {
   id: 'siva-palaparthi-profile',
   full_name: 'Siva Palaparthi',
-  role: 'Computer Science Student | Aspiring Software Developer',
-  location: 'Andhra Pradesh, India',
+  role: 'Aspiring Software Engineer | Data Engineering for AI',
+  location: 'Tenali, Andhra Pradesh, India',
   introduction:
-    'I am a Computer Science student interested in software development, cloud computing, automation, AI, and continuous learning. This portfolio showcases my certifications, technical skills, and professional development.',
+    'Aspiring Software Engineer specializing in Data Engineering for AI with strong foundations in full-stack development, Data Structures and Algorithms, DBMS, and scalable backend systems. Skilled in Python, Java, SQL, and modern web technologies. Passionate about problem solving, software development, and data-driven applications.',
   bio_extended:
-    'Pursuing B.Tech in Computer Science Engineering (Specialization in Data Engineering for AI) at KL University (CGPA 8.59/10). Passionate about building robust scalable software systems, cloud infrastructure on Azure, cognitive AI workflows, intelligent robotic process automation, and preparing for global IT engineering opportunities including Japanese technology firms.',
-  photo_url: '/profile/siva-palaparthi-photo.png',
+    'Pursuing B.Tech in Computer Science Engineering (Specialization in Data Engineering for AI) at KL University (CGPA 8.7/10). Strong track record across autonomous AI pipelines, enterprise automation (Automation Anywhere), cloud infrastructure (Azure AZ-900 & Azure AI Associate), and bilingual professional qualifications in Japanese (NAT-TEST 5Q Passed) and English (Cambridge Linguaskill - Reading 180+ C1).',
+  photo_url: '/profile/siva-palaparthi-photo.jpg',
   resume_url: '/profile/siva-palaparthi-resume.pdf',
   email: 'palaparthisiva907@gmail.com',
   linkedin_url: 'https://www.linkedin.com/in/siva-palaparthi-5927b8302',

@@ -110,7 +110,7 @@ export const Hero: React.FC<HeroProps> = ({ profile, onCopyLink, certificateCoun
               <MapPin className="w-4 h-4 text-slate-400" />
               <span>{profile.location}</span>
               <span className="mx-2 text-slate-300">•</span>
-              <span>B.Tech CSE, KL University (CGPA 8.59)</span>
+              <span>B.Tech CSE, KL University (CGPA 8.7)</span>
             </div>
 
             {/* Introduction paragraph */}
