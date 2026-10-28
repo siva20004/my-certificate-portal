@@ -78,6 +78,54 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ profile }) => {
                 </span>
               </div>
             </div>
+
+            {/* Resume Featured Engineering Projects */}
+            <div className="mt-6 pt-6 border-t border-slate-200">
+              <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider mb-3">
+                Key Engineering Projects (from Resume)
+              </h4>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-sm">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs font-bold text-slate-900">Smart Manufacturing Platform</span>
+                    <span className="text-[10px] font-semibold text-blue-700 bg-blue-50 px-1.5 py-0.5 rounded">MERN</span>
+                  </div>
+                  <p className="text-[11px] text-slate-500 mt-1 leading-snug">
+                    Web-based manufacturing telemetry & equipment monitoring with real-time operational visibility.
+                  </p>
+                </div>
+
+                <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-sm">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs font-bold text-slate-900">AI Pipeline Orchestrator</span>
+                    <span className="text-[10px] font-semibold text-purple-700 bg-purple-50 px-1.5 py-0.5 rounded">AI / Python</span>
+                  </div>
+                  <p className="text-[11px] text-slate-500 mt-1 leading-snug">
+                    Autonomous data pipeline monitoring with data-contract validation and automated failure diagnosis.
+                  </p>
+                </div>
+
+                <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-sm">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs font-bold text-slate-900">Warehouse Control Systems</span>
+                    <span className="text-[10px] font-semibold text-amber-700 bg-amber-50 px-1.5 py-0.5 rounded">Python RPA</span>
+                  </div>
+                  <p className="text-[11px] text-slate-500 mt-1 leading-snug">
+                    Stacker crane automation simulation, automated storage/retrieval, and material flow coordination.
+                  </p>
+                </div>
+
+                <div className="p-3 rounded-xl bg-white border border-slate-200 shadow-sm">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs font-bold text-slate-900">CSV Data Cleaning App</span>
+                    <span className="text-[10px] font-semibold text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded">Full-Stack</span>
+                  </div>
+                  <p className="text-[11px] text-slate-500 mt-1 leading-snug">
+                    Full-stack web tool to upload, preprocess, deduplicate, and normalize CSV datasets dynamically.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Education & Language Qualifications */}
